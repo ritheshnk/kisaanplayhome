@@ -1,0 +1,214 @@
+body{
+  font-family: "Montserrat";
+ 
+}
+
+#title{
+    background-color: #FFFF;
+  }
+  
+  h1{
+    font-family: Montserrat-black;
+    font-size: 3.2rem;
+    line-height: 1.5;
+  
+  }
+
+  h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .container-fluid{
+    padding: 3% 15%;
+  }
+
+
+  /* navbar */
+  /* .navbar {
+    overflow: hidden;
+    background-color: #666666;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #eeeeee;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .navbar a:hover {
+    color: #1c87c9;
+  }
+  .container {
+    padding: 18px;
+    margin-top: 35px;
+    height: 2000px;
+  } */
+
+
+
+
+  
+
+  .navbar-brand{
+    font-family: "ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .nav-item{
+    padding: 0 18px;
+  }
+
+  .nav-link{
+    font-size: 1.2rem;
+    ;
+  }
+
+  .contact-button{
+    margin: 5% 3% 5% 0;
+  }
+
+  #carouselExampleFade{
+   
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* title-image */
+  .title-image{
+    width: 80%;
+    transform: rotate(10deg);
+    position: relative;
+    left: 100px;
+  }
+
+
+
+
+  /* cards */
+
+  #features{
+    background-color: #EA648D;
+    padding: 7% 15%;
+  }
+
+  .key{
+   
+    padding: 20px 20px ;
+  }
+
+  /* .feature-box{
+    background-color: 
+    padding: 10px 0 10px 0;
+    text-decoration-color: #FFFF;
+   
+  } */
+
+
+
+
+
+  /* imageslider */
+
+  #imageslider{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #FFFF;
+    /* color: #FFff; */
+  }
+
+  #carouselExampleDark{
+    width: 70%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  /* video */
+
+ #video{
+  background-color: #EA648D;
+  padding: 7% 15%;
+  text-align: center;
+  
+}
+
+/* about */
+
+#about{
+  padding: 7% 15%;
+  background-color: #FFFF;
+
+}
+
+#size{
+  width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+@media (max-width: 1208px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+ 
+
+/* mailformoreinfo */
+
+#cta{
+  background-color: #EA648D;
+  padding: 7% 15%;
+  text-align: center;
+  text-decoration: solid;
+}
+
+#contact{
+  padding-top: 10px;
+}
+
+/* footer */
+
+#footer{
+ 
+  padding: 7% 15%;
+  text-align: center;
+  
+  
+}
+
+
+
+.social-icons {
+  margin : 20px 10px;
+}
+
+
+
+.carousel-fade .carousel-item, .carousel-item img  {
+  width: 100%;
+  max-height: 90vh;
+  object-fit: cover;
+}
+
+
+.bot{
+  float: left;
+}

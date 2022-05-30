@@ -24,6 +24,9 @@
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+
+      <link rel="icon" href="favicon (3).ico">
       
      
  
@@ -33,9 +36,11 @@
 <body>
 
   <section id="title">
+
+
    <!-- Nav Bar -->
-    <nav class="navbar  navbar-expand-lg " style="background-color: #e3f2fd;" >
-        <a href="#dummy" class="navbar-brand">KISSAN PLAY HOME</a>
+    <nav class="navbar  navbar-expand-lg navbar-dark bg-dark fixed-top"  >
+        <a href="#dummy" class="navbar-brand">KISAAN PLAY HOME</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -43,21 +48,60 @@
   <div class="collaspe navbar-collpase  ms-auto" id=nav>
         <ul class="navbar-nav ms-auto">
 
-            <li class="nav-item"><a href="#dummy" class="nav-link">HOME</a></li>
-            <li class="nav-item"><a href="#dummy" class="nav-link">ABOUT</a></li>
-            <li class="nav-item"><a href="#dummy" class="nav-link">CONTACT</a></li>
+            <li class="nav-item"><a href="#title" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">CONTACT</a></li>
         </ul>
   </div>
 
  </nav>
-    <div class="container-fluid" >
+
+ <div class="carousel slide carousel-fade carousel-main " id="carouselExampleFade" data-bs-ride="carousel" data-bs-interval="2000">
+  <div class="carousel-inner" >
+    <div class="carousel-item active">
+      <img src="img1.jpg" class="d-block w-200 hero-carousel " alt="..."  >
+    </div>
+    <div class="carousel-item">
+      <img src="img2.jpg" class="d-block w-200 hero-carousel" alt="..."  >
+    </div>
+    <!-- <div class="carousel-item">
+      <img src="img3.jpg" class="d-block w-100 hero-carousel" alt="..." >
+    </div> -->
+    <!-- <div class="carousel-item">
+      <img src="img4.jpg" class="d-block w-100 hero-carousel" alt="..." >
+    </div>
+    <div class="carousel-item">
+      <img src="img5.jpg" class="d-block w-100 hero-carousel" alt="..." >
+    </div> -->
+    <div class="carousel-item">
+      <img src="img6.jpg" class="d-block w-200 hero-carousel" alt="..." >
+    </div>
+    <div class="carousel-item">
+      <img src="img7.jpg" class="d-block w-200 hero-carousel" alt="..." >
+    </div>
+    <div class="carousel-item">
+      <img src="img8.jpg" class="d-block w-200 hero-carousel" alt="..." >
+    </div>
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <!-- <div class="container-fluid" >
 
       <div class="row"style="padding-top: 2rem;">
 
         <div class="col-lg-6" >
-          <h1><strong ><i>KISSAN PLAY HOME</i></strong> <br> <i>We Provide High Qulaity Education and Care</i></h1>
-          <a class="btn btn-outline-dark btn-md contact-button" href="mailto:nkrithesh@gmail.com" role="button">CONTACT US  <i class="fa-solid fa-envelope"></i></a>
-          <!-- <button type="button" class="btn btn-outline-dark btn-lg"><a class="btn" href="mailto:nkrithesh@gmail.com">CONTACT US <i class="fa-solid fa-envelope"></i></a></button> -->
+          <p class="fw-bold fs-1 text"><strong ><span class="text-dark">KISSAN</span> <span class="text-primary">PLAY HOME</span></strong></p> <br>
+          <p class="fw-normal fs-3 text"><span class="text-dark">We Provide High Quality Education and Care</span></p>
+          <a class="btn btn-outline-dark btn-md contact-button" href="mailto:kisaanplayhome@gmail.com" role="button">CONTACT US  <i class="fa-solid fa-envelope"></i></a>
+         
           
         </div>
       
@@ -68,7 +112,7 @@
 
       </div>
     </div>
-  </div>
+  </div> -->
 
 </section>
 
@@ -104,7 +148,13 @@
 </section> -->
 
 <!--CARDS-->
-  <section id="features" style="background-color: #FDEFF4;">
+  <section id="features" >
+
+    <div class="key">
+      <p class="fs-2 text t fw-bold text-light">THE  MOTIVE OF <span class="text-dark">KISAAN PLAY HOME</span> IS TO PROVIDE  </p>
+    </div>
+
+    
 
     <div class="container">
             
@@ -112,11 +162,11 @@
 
         <div class="col-4">
            
-         <div class="card">
+         <div class="card card-shadow card-img-top">
 
           <img src="preschool-3.webp" alt="" class="card-img-top">
 
-          <div class="card-body">
+          <div class="card-body ">
 
             <h5 class="card-title">High Quality Education</h5>
             <p class="card-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut saepe accusamus maiores. Quis sapiente quasi sequi eaque saepe corporis cum!</p>
@@ -174,10 +224,10 @@
 
 <section id="imageslider">
 
-  <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non tempora omnis est..</h2>
+  <p class="fs-2 text fw-bold text-dark">Kisaan Play Home is a pre nursery,day care,after school care centre at Kaup,Udupi.This services operates from<br> 8.30 Am to 7.30 pm.</p>
 
 
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+  <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="point1.jpg" class="d-block w-100" alt="..." width="400px" height="400px">
@@ -203,28 +253,99 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+  </div> -->
+
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="images3.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="fw-bold text-dark ">Well Experienced Teacher</p>
+          <p class="fw-normal">We have Teachers over 10 years of Experience.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="images2.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="fw-bold text-dark  ">Teaching Kids in Playway Method</p>
+          <p class="fw-normal">We make sure that kids under the topic and feel free with us </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images1.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="fw-bold text-dark  ">Diffrent Activites</p>
+          <p class="fw-normal">We make sure that kids are aslo focused on other Activites </p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="newpoint.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="fw-bold text-dark  ">Playing With Kids Indoor and Outdoor</p>
+          <p class="fw-normal">We Play and Interact with our Students  </p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="images5.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <p class="fw-bold text-dark  ">Separate Activity Room</p>
+          <p class="fw-normal">We also have Separate Activitie rooms for Kids  </p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-
-
-  <!-- <img src="images/dog-img.jpg" alt="dog-profile">
-  <em>Pebbles, New York</em> -->
-
-  <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-  <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-  <em>Beverly, Illinois</em> -->
 
 </section>
 
 <!-- video -->
 <section id="video">
-   <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eaque voluptate incidunt!</h2>
+  
+   <p class="fs-1 text fw-bold">A Tour of <span class="text-light">KISAAN PLAY HOME</span>  </p>
   
   <video controls id="size" >
     <source src="kisaanvideo.mp4" video="web/mp4" >
   </video>
 
+<p class="fs-4 text fw-bold text-light">Kisaan play home is a place where children grow and develop while speaking, listening, reading, writing and playing.</p>
 </section>
 
+<!-- about -->
+
+<section id="about">
+  <div class="row">
+
+    <div class="col-6 col-md-6">
+
+      <img src="about.webp" alt="" width="500px" height="300px">
+
+    </div>
+
+    <div class="col-6 col-md-6 bot " style="text-align: center;">
+
+      <p class="fs-2 fw-bold text-dark">Kisaan Play Home</p>
+      <p class="fw-normal fs-5" style="text-align: justify;">Kisaan play home is a place where children grow and develop while speaking, listening, reading, writing and playing.Kisaan play home is a pre nursery,day care,after school care centre at Kaup,Udupi.This services operates from 8.30 Am to 7.30 pm</p>
+
+    </div>
+
+  </div>
+
+</section>
 
 <!-- Press -->
 
@@ -239,7 +360,7 @@
 
 <!-- Pricing -->
 
-<section id="pricing">
+<!-- <section id="pricing">
 
   <h2>A Plan for Every Dog's Needs</h2>
   <p>Simple and affordable price plans for your and your dog.</p>
@@ -269,16 +390,19 @@
   <p>Unlimited App Usage</p>
   <button type="button">Sign Up</button>
 
-</section>
+</section> -->
 
 
 <!-- Call to Action -->
 
 <section id="cta">
-
-  <h3>Find the True Love of Your Dog's Life Today.</h3>
-  <button type="button">Download</button>
-  <button type="button">Download</button>
+  <!-- <p class="fs-1 text fw-bold text-light" >ADMISSION OPEN!!!</p> -->
+  <p class="fs-1 text fw-bold text-light" >Apply for Kisaan Play Home NOW!!!</p>
+  <a class="btn btn-outline-light" href="mailto:kisaanplayhome@gmail.com" role="button">APPLY NOW</a>
+  <p class="fs-4 text fw-normal text-dark " id="contact">for more Details contact  Divya : 8971869172 and 9964242624
+      </p>
+  <!-- <button type="button">Download</button>
+  <button type="button">Download</button> -->
 
 </section>
 
@@ -287,7 +411,14 @@
 
 <footer id="footer">
 
-  <p>© Copyright TinDog</p>
+
+  <a href=""><i class=" social-icons fa-brands fa-facebook"></i></a>
+  <a href=""><i class=" social-icons fa-brands fa-instagram"></i></a>
+  <a href=""><i class=" social-icons fa-brands fa-twitter"></i></a>
+
+  <p>© KisaanPlayHome</p>
+
+
 
 </footer>
 
