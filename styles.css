@@ -213,3 +213,20 @@ body{
 .bot{
   float: left;
 }
+
+.map{
+  width: 600px;
+  height: 400px;
+}
+
+.space{
+  padding-top: 20px;
+}
+
+.down{
+padding-bottom: 10px;
+}
+
+.foot{
+  padding-top: 50px;
+}
